@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* header {
+  background-color: #343333;
+  padding: 1rem;
+}
+
+header a{
+  color: #ffff;
+  font-weight: bold;
+  text-decoration: none;
+} */
+
+
+/* Set the minimum height of the main content area to fill the whole screen */
+.site-container {
+  min-height: 100vh;
+}
+
+/* Make the main content flexible and take up all available space */
+main {
+  flex: 1;
+}
+
+/* Style for a primary button with a yellow background and black text */
+.btn-primary , .btn-outline-primary{
+  background-color: #f0c040; /* Yellow background */
+  color: #000000;           /* Black text */
+}
+
+/* Arrange product display in a row, centered on the page */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style the rating span with a yellow color */
+.rating span {
+  color: #ffc000; /* Yellow color */
+}
+
+/* Style each product with a border and some space around it */
+.product {
+  border: 1px #404040 solid; /* Border around the product */
+  margin: 1rem;              /* Space around the product */
+}
+
+/* Style product images to take up the full width with a maximum of 400px */
+.products img {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Add padding to the product information */
+.product info {
+  padding: 1rem;
+}
+
+/* Limit the maximum width of large images to 100% */
+.img-large {
+  max-width: 100%;
+}
+
+/* Set a fixed height of 80px for thumbnail images */
+.img-thumbnail {
+  height: 80px;
+}
+
+/* Limit the maximum width of a small container to 600px */
+.small-container {
+  max-width: 600px;
+}
+
+/* Style checkout steps with a gray bottom border and text color */
+.checkout-steps > div {
+  border-bottom: 0.2rem solid #a0a0a0; /* Gray bottom border */
+  color: #a0a0a0;                      /* Gray text color */
+}
+
+/* Style active checkout steps with an orange bottom border and text color */
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid #f08000; /* Orange bottom border for active step */
+  color: #f08000;                      /* Orange text color for active step */
+}
+
+
+
+
+/* Make text in the navigation bar bold */
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Styling for a Hidden Sidebar */
+.side-navbar {
+  width: 240px;                /* Set the width of the sidebar */
+  height: 160%;                /* Cover the full height of the page */
+  position: absolute;          /* Position it absolutely within its container */
+  left: -300px;                /* Initially position it off-screen to the left */
+  background-color: #100901;   /* Give it a dark greenish background color */
+  transition: 0.5s;            /* Smooth transition effect over 0.5 seconds */
+}
+
+/* Container Transition Styling */
+.site-container {
+  transition: 0.4s;             /* Smooth transition effect over 0.4 seconds */
+}
+
+/* Styling for an Active Container */
+.active-cont {
+  margin-left: 240px;           /* When active, move to the right by 240 pixels */
+}
+
+/* Styling for Active Navigation */
+.active-nav {
+  left: 0;                      /* Move to the leftmost position when active */
+}
+.text-bold {
+  font-weight: bold;
+}
+
